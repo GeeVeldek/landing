@@ -1,0 +1,29 @@
+.container {
+    height: 300px;
+    background-color: darkseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+}
+
+.title {
+  margin-top: 40px;
+}
+
+.cards {
+  display: flex;
+
+}
+
+.card {
+  height: 200px;
+  width: 100px;
+  background-color: white;
+  margin: 40px;
+  text-align: center;
+}
